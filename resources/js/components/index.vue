@@ -21,7 +21,8 @@
                         >
                         </v-img>
                         <v-card-title v-text="product.name"></v-card-title>
-
+                        <v-card-subtitle v-text="product.price">
+                        </v-card-subtitle>
                         <v-card-text
                             class="text--primary"
                             v-text="product.description"

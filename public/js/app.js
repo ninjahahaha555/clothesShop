@@ -5487,6 +5487,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -29257,6 +29258,10 @@ var render = function () {
                       _vm._v(" "),
                       _c("v-card-title", {
                         domProps: { textContent: _vm._s(product.name) },
+                      }),
+                      _vm._v(" "),
+                      _c("v-card-subtitle", {
+                        domProps: { textContent: _vm._s(product.price) },
                       }),
                       _vm._v(" "),
                       _c("v-card-text", {
